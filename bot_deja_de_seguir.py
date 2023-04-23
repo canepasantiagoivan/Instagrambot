@@ -8,8 +8,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 
+# Definir headers para no ser bloqueado por IG
 
-# Define custom headers
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",
     "Accept-Language": "en-US,en;q=0.9",
@@ -35,17 +35,14 @@ chrome_options.add_argument("--proxy-server=%s" % PROXY)
 
 # Your code to interact with the page goes here
 
-# Don't forget to close the driver
 
-
-# Set up a WebDriver
 driver_path = 'path/to/chromedriver.exe'  # Change this to the path of your WebDriver
 driver = webdriver.Chrome(executable_path=driver_path)
 
 # Log into Instagram
 
-username = 'santiagocanepa'  # Change this to your Instagram username
-password = 'Celeron-amd1'  # Change this to your Instagram password
+username = 'usuario'  
+password = 'xxxxx'  
 driver.get('https://www.instagram.com/accounts/login/')
 time.sleep(4)
 username_field = driver.find_element('name', 'username')
