@@ -9,7 +9,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 
 
-# Define custom headers
+# Definir headers para no ser bloqueado por IG
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",
     "Accept-Language": "en-US,en;q=0.9",
@@ -44,8 +44,8 @@ driver = webdriver.Chrome(executable_path=driver_path)
 
 # Log into Instagram
 
-username = 'melinarrrrdo'  # Change this to your Instagram username
-password = 'Cebyhca9'  # Change this to your Instagram password
+username = 'usuariopropio'  # Usario
+password = 'xxxx'  # contraseña
 driver.get('https://www.instagram.com/accounts/login/')
 time.sleep(4)
 username_field = driver.find_element('name', 'username')
@@ -57,18 +57,19 @@ login_button = driver.find_element('xpath', "//button[@type='submit']")
 login_button.click()
 time.sleep(5)
 
-username='pirka.oficial'
-# Navigate to your profile
+username='usuarioacopiarlista'
+# usuario a copiar seguidos
 profile_url = f'https://www.instagram.com/{username}/'
 driver.get(profile_url)
 time.sleep(5)
 
-# Navigate to your followers list and load all followers
+# Navigate to your followers list and load all followers 
+
 followers_link = driver.find_element('xpath', "//a[@href='/" + username + "/followers/']")
 followers_link.click()
 time.sleep(5)
 followers_list = driver.find_element('xpath', '/html/body/div[2]/div/div/div[3]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[2]')
-#followers_list = driver.find_element('xpath', '/html/body/div[2]/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[2]')
+#followers_list = driver.find_element('xpath', '/html/body/div[2]/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[2]') 
 scroll_height = 0
 
 
