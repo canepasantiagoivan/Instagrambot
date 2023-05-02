@@ -44,7 +44,7 @@ driver = webdriver.Chrome(executable_path=driver_path)
 
 # Log into Instagram
 
-username = 'santiagocanepa'  # Change this to your Instagram username
+username = 'xxxxxx'  # Change this to your Instagram username
 password = 'xxxxxx'  # Change this to your Instagram password
 driver.get('https://www.instagram.com/accounts/login/')
 time.sleep(4)
@@ -57,7 +57,7 @@ login_button = driver.find_element('xpath', "//button[@type='submit']")
 login_button.click()
 time.sleep(5)
 
-username_mine='santiagocanepa'
+username_mine='xxxxxx'
 
 #------------------------------------------------------------------------------------------------------aca empieza followers
 # Navigate to your profile
