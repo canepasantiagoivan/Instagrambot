@@ -51,8 +51,8 @@ driver = webdriver.Chrome(executable_path=driver_path)
 
 # Log into Instagram
 
-username = 'santiagocanepa'  # Change this to your Instagram username
-password = 'Celeron300869'  # Change this to your Instagram password
+username = 'xxx1'  # Change this to your Instagram username
+password = 'xxx1'  # Change this to your Instagram password
 driver.get('https://www.instagram.com/accounts/login/')
 time.sleep(4)
 username_field = driver.find_element('name', 'username')
