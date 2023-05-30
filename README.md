@@ -1,5 +1,5 @@
 ## **Bot de Instagram con Python**
-![Texto alternativo]((https://i.postimg.cc/pLv7KzYL/HD-White-Outline-Round-Instagram-Logo-Icon-PNG.png))
+![Texto alternativo](https://i.postimg.cc/pLv7KzYL/HD-White-Outline-Round-Instagram-Logo-Icon-PNG.png)
 
 
 
