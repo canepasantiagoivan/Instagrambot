@@ -16,7 +16,7 @@ bot_seguir_sin_genero.py: Este script es una actualización del script anterior 
 📚 Pre-requisitos
 Para poder utilizar estos scripts, es necesario tener instalados los siguientes paquetes en Python:
 
-selenium
+## ** selenium
 pandas
 beautifulsoup4
 pickle
