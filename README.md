@@ -15,32 +15,39 @@ crear_lista_unfollowers.py: Este script se encarga de scrollear y comparar lista
 ## 📚 **Pre-requisitos**
 Para poder utilizar estos scripts, es necesario tener instalados los siguientes paquetes en Python:
 
- **selenium
+**selenium
 pandas
 beautifulsoup4
 pickle
 random
 csv
 datetime**
+
 Además, necesitarás el WebDriver de Chrome, que puedes descargar desde aquí.
 
-💻 Cómo utilizar los scripts
+**💻 Cómo utilizar los scripts**
+
 Clona este repositorio en tu local.
 bash
-Copy code
 **git clone** https://github.com/username/instagram-bot
 
 Actualiza las variables username y password con tu nombre de usuario y contraseña de Instagram en cada script.
-username = 'introducir usuario'  # Cambia esto por tu nombre de usuario de Instagram
-password = 'introducir pass'  # Cambia esto por tu contraseña de Instagram
+
+**username** = 'introducir usuario'  # Cambia esto por tu nombre de usuario de Instagram
+
+**password** = 'introducir pass'  # Cambia esto por tu contraseña de Instagram
+
 Actualiza la variable driver_path con la ruta al WebDriver de Chrome.
 driver_path = 'path/to/chromedriver.exe'  # Cambia esto por la ruta al WebDriver de Chrome
+
 Ejecuta los scripts en el orden en que desees utilizando Python.
-bash
+
 **python crear_lista_unfollowers.py
 python deja_de_seguir.py
 python bot_seguir.py
 python bot_seguir_sin_genero.py**
+
+
 ## ❗ **Nota importante**
 Ten en cuenta que utilizar estos scripts de manera abusiva puede resultar en que Instagram bloquee tu cuenta. Se recomienda utilizarlos de manera responsable. Este código se proporciona con fines educativos y no se alienta ni apoya el spam o el abuso en Instagram.
 
