@@ -1,5 +1,5 @@
 ## **Bot de Instagram con Python**
-![Texto alternativo](https://i.postimg.cc/FKQ6gcyK/Ilustraci-n-De-Banner-De-Icono-De-Redes-Sociales-Rosa-En-Estilo-Dibujado-A-Mano-PNG-Im-genes-Predi.png)
+![Texto alternativo](https://postimg.cc/KR9J2KH6)
 
 
 
