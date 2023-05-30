@@ -1,5 +1,5 @@
 ## **Bot de Instagram con Python**
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/ZHXrBZ6/Ilustraci-n-De-Banner-De-Icono-De-Redes-Sociales-Rosa-En-Estilo-Dibujado-A-Mano-PNG-Im-genes-Predise.png" alt="Ilustraci-n-De-Banner-De-Icono-De-Redes-Sociales-Rosa-En-Estilo-Dibujado-A-Mano-PNG-Im-genes-Predise" border="0"></a>
+<a href="https://ibb.co/7GKmxVR"><img src="https://i.ibb.co/7GKmxVR/1000-F-544478276-WCF6vjk-GI7l7-NMMMNUIgw0-IIPpddb-CDy.webp" alt="1000-F-544478276-WCF6vjk-GI7l7-NMMMNUIgw0-IIPpddb-CDy" border="0"></a>
 <p align="center">
   <img src="https://pin.it/7Lbg90t" alt="Logo del Proyecto" width="200">
 </p>
