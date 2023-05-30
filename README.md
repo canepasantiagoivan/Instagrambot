@@ -1,5 +1,5 @@
 ## **Bot de Instagram con Python**
-[![__]](https://postimg.cc/MvPmJ4G6)
+[![__]https://postimg.cc/MvPmJ4G6](https://postimg.cc/MvPmJ4G6)
 
 
 Bienvenidos a este repositorio, donde encontrarás scripts para automatizar algunas tareas en Instagram utilizando Python y Selenium.
