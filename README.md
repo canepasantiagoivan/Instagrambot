@@ -28,28 +28,24 @@ Además, necesitarás el WebDriver de Chrome, que puedes descargar desde aquí.
 Clona este repositorio en tu local.
 bash
 Copy code
-git clone https://github.com/username/instagram-bot
+**git clone** https://github.com/username/instagram-bot
+
 Actualiza las variables username y password con tu nombre de usuario y contraseña de Instagram en cada script.
-python
-Copy code
 username = 'introducir usuario'  # Cambia esto por tu nombre de usuario de Instagram
 password = 'introducir pass'  # Cambia esto por tu contraseña de Instagram
 Actualiza la variable driver_path con la ruta al WebDriver de Chrome.
-python
-Copy code
 driver_path = 'path/to/chromedriver.exe'  # Cambia esto por la ruta al WebDriver de Chrome
 Ejecuta los scripts en el orden en que desees utilizando Python.
 bash
-Copy code
-python crear_lista_unfollowers.py
+**python crear_lista_unfollowers.py
 python deja_de_seguir.py
 python bot_seguir.py
-python bot_seguir_sin_genero.py
+python bot_seguir_sin_genero.py**
 ## ❗ **Nota importante**
 Ten en cuenta que utilizar estos scripts de manera abusiva puede resultar en que Instagram bloquee tu cuenta. Se recomienda utilizarlos de manera responsable. Este código se proporciona con fines educativos y no se alienta ni apoya el spam o el abuso en Instagram.
 
 ## 🎯 **Contribuir**
 Si tienes alguna mejora o corrección, no dudes en hacer un pull request. Asegúrate de probar el código antes de enviarlo.
 
-## 📜 Licencia
+## **📜 Licencia**
 **Este proyecto se encuentra bajo la licencia MIT.**
