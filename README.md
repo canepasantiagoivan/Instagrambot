@@ -1,5 +1,6 @@
 ## **Bot de Instagram con Python**
-<a href='https://postimg.cc/KR9J2KH6' target='_blank'><img src='https://i.postimg.cc/KR9J2KH6/HD-White-Outline-Round-Instagram-Logo-Icon-PNG.png' border='0' alt='HD-White-Outline-Round-Instagram-Logo-Icon-PNG'/></a>
+![Texto alternativo](<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/FKQ6gcyK/Ilustraci-n-De-Banner-De-Icono-De-Redes-Sociales-Rosa-En-Estilo-Dibujado-A-Mano-PNG-Im-genes-Predi.png' border='0' alt='Ilustraci-n-De-Banner-De-Icono-De-Redes-Sociales-Rosa-En-Estilo-Dibujado-A-Mano-PNG-Im-genes-Predi'/></a>)
+
 
 
 Bienvenidos a este repositorio, donde encontrarás scripts para automatizar algunas tareas en Instagram utilizando Python y Selenium.
