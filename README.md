@@ -1,10 +1,10 @@
-Bot de Instagram con Python
+## Bot de Instagram con Python
 <p align="center">
   <img src="URL_DEL_LOGO" alt="Logo del Proyecto" width="200">
 </p>
 Bienvenidos a este repositorio, donde encontrarás scripts para automatizar algunas tareas en Instagram utilizando Python y Selenium.
 
-📋 Contenido del repositorio
+## 📋 Contenido del repositorio
 crear_lista_unfollowers.py: Este script se encarga de scrollear y comparar listas de seguidores, creando una lista llamada unfollowers.csv que contiene a aquellos usuarios que han dejado de seguirnos.
 
 deja_de_seguir.py: Este script deja de seguir a los usuarios que se encuentren en la lista unfollowers.csv y agrega a estos usuarios a la lista add.csv.
