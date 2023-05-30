@@ -1,5 +1,5 @@
 ## **Bot de Instagram con Python**
-![Texto alternativo](<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/FKQ6gcyK/Ilustraci-n-De-Banner-De-Icono-De-Redes-Sociales-Rosa-En-Estilo-Dibujado-A-Mano-PNG-Im-genes-Predi.png' border='0' alt='Ilustraci-n-De-Banner-De-Icono-De-Redes-Sociales-Rosa-En-Estilo-Dibujado-A-Mano-PNG-Im-genes-Predi'/></a>)
+![Texto alternativo](https://i.postimg.cc/FKQ6gcyK/Ilustraci-n-De-Banner-De-Icono-De-Redes-Sociales-Rosa-En-Estilo-Dibujado-A-Mano-PNG-Im-genes-Predi.png)
 
 
 
