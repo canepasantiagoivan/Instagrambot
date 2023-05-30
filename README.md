@@ -1,6 +1,6 @@
 ## **Bot de Instagram con Python**
 <p align="center">
-  <img src="URL_DEL_LOGO" alt="Logo del Proyecto" width="200">
+  <img src="https://pin.it/7Lbg90t" alt="Logo del Proyecto" width="200">
 </p>
 Bienvenidos a este repositorio, donde encontrarás scripts para automatizar algunas tareas en Instagram utilizando Python y Selenium.
 
