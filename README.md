@@ -13,7 +13,7 @@ crear_lista_unfollowers.py: Este script se encarga de scrollear y comparar lista
 
 **bot_seguir_sin_genero.py** : Este script es una actualización del script anterior que elimina el modelo de segmentación por género para no cargarlo si no se va a utilizar.
 
-## 📚 Pre-requisitos
+## 📚 **Pre-requisitos**
 Para poder utilizar estos scripts, es necesario tener instalados los siguientes paquetes en Python:
 
  **selenium
@@ -46,11 +46,11 @@ python crear_lista_unfollowers.py
 python deja_de_seguir.py
 python bot_seguir.py
 python bot_seguir_sin_genero.py
-## ❗ Nota importante
+## ❗ **Nota importante**
 Ten en cuenta que utilizar estos scripts de manera abusiva puede resultar en que Instagram bloquee tu cuenta. Se recomienda utilizarlos de manera responsable. Este código se proporciona con fines educativos y no se alienta ni apoya el spam o el abuso en Instagram.
 
-## 🎯 Contribuir
+## 🎯 **Contribuir**
 Si tienes alguna mejora o corrección, no dudes en hacer un pull request. Asegúrate de probar el código antes de enviarlo.
 
 ## 📜 Licencia
-** Este proyecto se encuentra bajo la licencia MIT.**
+**Este proyecto se encuentra bajo la licencia MIT.**
