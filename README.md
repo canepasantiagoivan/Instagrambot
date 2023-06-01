@@ -1,6 +1,6 @@
 ## **Bot de Instagram con Python**
 
-![Diseño sin título](https://i.postimg.cc/MvPmJ4G6/Dise-o-sin-t-tulo.png)
+![Diseño sin título]([https://i.postimg.cc/MvPmJ4G6/Dise-o-sin-t-tulo.png](https://github.com/santiagocanepa/Optimizing-the-Management-of-1800-Own-Leads-in-HubSpot-Applying-XGB-CatBoost-and-Random-Forest/blob/dd7aaa56ebb62009f79d444f785590f41831d76a/imag/pngwing.com%20(4).png))
 
 
 
