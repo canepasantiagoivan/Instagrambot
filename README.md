@@ -4,58 +4,51 @@
 
 
 
-Bienvenidos a este repositorio, donde encontrarás scripts para automatizar algunas tareas en Instagram utilizando Python y Selenium.
+Welcome to this repository, where you will find scripts to automate some tasks on Instagram using Python and Selenium.
 
-## 📋 **Contenido del repositorio**
-crear_lista_unfollowers.py: Este script se encarga de scrollear y comparar listas de seguidores, creando una lista llamada unfollowers.csv que contiene a aquellos usuarios que han dejado de seguirnos.
+# 📋 Repository Contents
+**create_unfollowers_list.py:** This script is responsible for scrolling and comparing lists of followers, creating a list called unfollowers.csv that contains those users who have stopped following us.
 
-**deja_de_seguir.py** : Este script deja de seguir a los usuarios que se encuentren en la lista unfollowers.csv y agrega a estos usuarios a la lista add.csv.
+**stop_following.py:** This script stops following the users found in the unfollowers.csv list and adds these users to the add.csv list.
 
-**bot_seguir.py** : Este script segmenta a los usuarios por género y envía solicitudes de seguimiento a todos los usuarios de una lista de seguidores de otro usuario, de una lista de seguidos, o bien de una lista de likes para garantizar la actividad. Cada usuario al que se le envía una solicitud es copiado en add.csv para evitar enviar dos solicitudes al mismo usuario.
+**follow_bot.py:** This script segments users by gender and sends follow requests to all users from another user's follower list, a followed list, or a likes list to ensure activity. Each user who is sent a request is copied into add.csv to avoid sending two requests to the same user.
 
-**bot_seguir_sin_genero.py** : Este script es una actualización del script anterior que elimina el modelo de segmentación por género para no cargarlo si no se va a utilizar.
+**follow_bot_without_gender.py:** This script is an update of the previous script that removes the gender segmentation model so as not to load it if it is not going to be used.
 
-## 📚 **Pre-requisitos**
-Para poder utilizar estos scripts, es necesario tener instalados los siguientes paquetes en Python:
+# 📚 Pre-requisites
+To use these scripts, you need to have the following Python packages installed:
 
-**selenium
-pandas
-beautifulsoup4
-pickle
-random
-csv
-datetime**
+selenium pandas beautifulsoup4 pickle random csv datetime
 
-Además, necesitarás el WebDriver de Chrome, que puedes descargar desde aquí.
+In addition, you will need the Chrome WebDriver, which you can download from here.
 
-**💻 Cómo utilizar los scripts**
+💻 How to use the scripts
 
-Clona este repositorio en tu local.
-bash
-**git clone** https://github.com/username/instagram-bot
+Clone this repository locally.
 
-Actualiza las variables username y password con tu nombre de usuario y contraseña de Instagram en cada script.
+bash git clone https://github.com/username/instagram-bot
+**Update the username and password variables with your Instagram username and password in each script.**
 
-**username** = 'introducir usuario'  # Cambia esto por tu nombre de usuario de Instagram
+username = 'enter username' # Change this to your Instagram username
 
-**password** = 'introducir pass'  # Cambia esto por tu contraseña de Instagram
+password = 'enter password' # Change this to your Instagram password
 
-Actualiza la variable driver_path con la ruta al WebDriver de Chrome.
-driver_path = 'path/to/chromedriver.exe'  # Cambia esto por la ruta al WebDriver de Chrome
+Update the driver_path variable with the path to the Chrome WebDriver.
+driver_path = 'path/to/chromedriver.exe' # Change this to the path to the Chrome WebDriver
 
-Ejecuta los scripts en el orden en que desees utilizando Python.
+Run the scripts in the order you wish using Python.
 
-**python crear_lista_unfollowers.py
-python deja_de_seguir.py
-python bot_seguir.py
-python bot_seguir_sin_genero.py**
+**python create_unfollowers_list.py 
+python stop_following.py 
+python follow_bot.py 
+python follow_bot_without_gender.py**
 
 
-## ❗ **Nota importante**
-Ten en cuenta que utilizar estos scripts de manera abusiva puede resultar en que Instagram bloquee tu cuenta. Se recomienda utilizarlos de manera responsable. Este código se proporciona con fines educativos y no se alienta ni apoya el spam o el abuso en Instagram.
+# ❗ Important Note
+Please note that using these scripts abusively can result in Instagram blocking your account. It is recommended to use them responsibly. This code is provided for educational purposes and spam or abuse on Instagram is neither encouraged nor supported.
 
-## 🎯 **Contribuir**
-Si tienes alguna mejora o corrección, no dudes en hacer un pull request. Asegúrate de probar el código antes de enviarlo.
+# 🎯 Contribute
+If you have any improvements or corrections, feel free to make a pull request. Make sure to test the code before submitting it.
 
-## **📜 Licencia**
-**Este proyecto se encuentra bajo la licencia MIT.**
+# 📜 License
+This project is under the MIT license.
