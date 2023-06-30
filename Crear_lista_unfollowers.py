@@ -57,7 +57,7 @@ login_button = driver.find_element('xpath', "//button[@type='submit']")
 login_button.click()
 time.sleep(5)
 
-username_mine='santiagocanepa'
+username_mine='cuenta'
 
 #--------------------------------------------------------------------------------------------------------aca empieza followers
 # Navigate to your profile
